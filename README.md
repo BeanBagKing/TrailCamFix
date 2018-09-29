@@ -13,6 +13,7 @@ So the first 3 are from one motion event. Numbers 4, 5, and 6 would be from the 
 
 The purpose of this script was to take the timestamp from the exifdata in the photos and use that to rename the files, providing a more organized file structure that will not have name conflicts. However, I discovered that the video files (AVI) don't have this metadata. Therefore, I...
 
+```
 Find the AVI files
 Strip out the number
 Back up one (getting the previous file, a JPG)
@@ -20,9 +21,12 @@ Get the timestamp from that
 Increment by 1 second (to avoid name conflicts)
 Rename the AVI (and, since I have it anyway, add the metadata)
 Then rename all the images
+```
 
 # Requirements
+```
 exifread
 PIL
 exiftool
 ffmpeg
+```

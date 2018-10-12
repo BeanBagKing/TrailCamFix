@@ -25,8 +25,8 @@ Then rename all the images
 
 # Requirements
 ```
-exifread
-PIL
-exiftool
-ffmpeg
+pip install exifread
+pip install image
+apt install exiftool
+apt install ffmpeg
 ```

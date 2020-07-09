@@ -1,7 +1,7 @@
 JEBUS! Note to self, make sure ffmpeg is installed before running this, or it will fail to make the new video file and then remove the old one. Should probably add some try/catch checks or something in this. Remember kids, make backups before running someone else's terrible code.
 
 # TrailCamFix
-Changes file names for Foxelli (and other?) trail cameras to include date/time
+Changes file names for Foxelli, CamPak (CamPark?), and other trail cameras to include date/time
 
 # About
 When Foxelli trail cameras take a pictures/video, it takes two pictures and a video by default. the files are named as follows:
